@@ -9,7 +9,7 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - dev.imstudying.tech
+        - test.imstudying.tech
       secretName: petclinic-tls
   rules:
     - host: imstudying.tech
